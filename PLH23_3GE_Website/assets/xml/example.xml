@@ -1,0 +1,64 @@
+<?xsl verion='1.0' encoding='UTF-8'?>
+<!--
+    Αυτό είναι ένα παράδειγμα XML αρχείου που περιέχει περιβαλλοντικές δράσεις.
+    Το XML αυτό συμμορφώνεται με το DTD που έχουμε ορίσει στο action.dtd.   
+-->
+<!DOCTYPE actions SYSTEM "action.dtd">
+<actions>           
+
+<action>
+    <category>Καθαρισμός παραλίας</category>
+    <title>Καθαρισμός παραλίας Ακτή του Ήλιου</title>
+    <subtitle>Εθελοντική δράση για τον καθαρισμό της παραλίας</subtitle>
+    <location>
+        <location_name>Ακτή του Ήλιου</location_name>
+        <municipality>Δήμος Αθηναίων</municipality>
+    </location>
+    <coords>
+        <lat>37.9838</lat>
+        <lng>23.7275</lng>
+    </coords>
+    <date>
+        <start_date>2024-07-15</start_date>
+    </date>
+    <image>assets/img/actions/cleanup.jpg</image>
+    <created_at>2024-06-01T10:00:00Z</created_at>
+</action>   
+<action>
+    <category>Δενδροφύτευση</category>
+    <title>Δενδροφύτευση στο Πάρκο Ελευθερίας</title>
+    <subtitle>Φυτεύουμε δέντρα για ένα πιο πράσινο μέλλον</subtitle>
+    <location>
+        <location_name>Πάρκο Ελευθερίας</location_name>
+        <municipality>Δήμος Αθηναίων</municipality>
+    </location>
+    <coords>
+        <lat>37.9838</lat>
+        <lng>23.7275</lng>
+    </coords>
+    <date>
+        <start_date>2024-08-01</start_date>
+        <end_date>2024-08-02</end_date>
+    </date>
+    <image>assets/img/actions/treeplanting.jpg</image>
+    <created_at>2024-06-05T14:30:00Z</created_at>
+</action>
+<action>
+    <category>Εκπαιδευτικό σεμινάριο</category>
+    <title>Σεμινάριο για την ανακύκλωση</title>
+    <subtitle>Μάθετε πώς να ανακυκλώνετε σωστά τα απορρίμματά σας</subtitle>
+    <location>
+        <location_name>Κέντρο Περιβαλλοντικής Εκπαίδευσης</location_name>
+        <municipality>Δήμος Αθηναίων</municipality>
+    </location>
+    <coords>
+        <lat>37.9838</lat>
+        <lng>23.7275</lng>
+    </coords>
+    <date>
+        <start_date>2024-09-10</start_date>
+    </date>
+    <image>assets/img/actions/recycling.jpg</image>
+    <created_at>2024-06-10T09:00:00Z</created_at>       
+</action>
+</actions>

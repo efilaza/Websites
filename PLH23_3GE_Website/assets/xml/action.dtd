@@ -1,0 +1,16 @@
+<!ELEMENT actions (action*)>
+<!ELEMENT action (category,title,subtitle,location,coords,date,image,created_at)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT subtitle (#PCDATA)>    
+<!ELEMENT location (location_name,municipality)>
+<!ELEMENT location_name (#PCDATA)>
+<!ELEMENT municipality (#PCDATA)>
+<!ELEMENT coords (lat,lng)>
+<!ELEMENT lat (#PCDATA)>   
+<!ELEMENT lng (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT date (start_date,end_date?)>   
+<!ELEMENT start_date (#PCDATA)>
+<!ELEMENT end_date (#PCDATA)>
+<!ELEMENT created_at (#PCDATA)>   
